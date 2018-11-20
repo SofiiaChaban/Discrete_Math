@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 #include<stdlib.h>
 int i,j,a,b,u,v,n,ne=1;
 int min,mincost=0,cost[30][30],parent[30];
@@ -45,7 +45,7 @@ void main()
         cost[a][b]=cost[b][a]=999;
     }
     printf("\n\tMinimum cost = %d\n",mincost);
-    getch();
+
 }
 int find(int i)
 {
